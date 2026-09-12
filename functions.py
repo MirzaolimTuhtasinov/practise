@@ -37,7 +37,7 @@
 # print("result2:", result2)
 
 
-print("==== Keyword & default arguments ====")
+# print("==== Keyword & default arguments ====")
 # DEFINE
 
 
@@ -49,13 +49,25 @@ print("==== Keyword & default arguments ====")
 # result = give_greet(name="Spider", age=33)
 # print("Result:", result)
 
-def give_greet(name, age=22):
-    print("give_greet is executed")
-    return f"Hi {name}, you are {age} years old!"
+# def give_greet(name, age=22):
+#     print("give_greet is executed")
+#     return f"Hi {name}, you are {age} years old!"
 
 
-result = give_greet(name="Spider", age=33)
-print("Result:", result)
+# result = give_greet(name="Spider", age=33)
+# print("Result:", result)
 
-result1 = give_greet(name="Trump")
-print("Result1:", result1)
+# result1 = give_greet(name="Trump")
+# print("Result1:", result1)
+
+
+print("==== Scope ====")
+b = 100  # 3
+
+
+def calculate(a, b):  # 2
+    c = a * b  # 1
+    print(f"the value of c is {c}")
+
+
+calculate(5, 50)

@@ -5,23 +5,27 @@
     (4) Error handling system
 '''
 
-import array  # package/module
-import math
-from math import ceil, asin
-print("=== What is the object ===")
-# An object has state and method properties.
-# Everything is object in Python!
+# print("=== What is the object ===")
+# # An object has state and method properties.
+# # Everything is object in Python!
 
-print(type("Hello World!"))
-print(type(222))
-print(type(True))
-print(type(array))
-print(type(math))
+# import array  # package/module
+# import math
+# from math import ceil, asin
 
-# Paradigms > Functional Programmming & OOP
-# OOP 4 CONCEPTS > Abstaction | Encapsulation | Inheritence | Polymorphism
-result1 = math.ceil(97.7)  # CALL
-print("result1:", result1)
+# print(type("Hello World!"))
+# print(type(222))
+# print(type(True))
+# print(type(array))
+# print(type(math))
 
-result2 = ceil(99.3)
-print("result2:", result2)
+# # Paradigms > Functional Programmming & OOP
+# # OOP 4 CONCEPTS > Abstaction | Encapsulation | Inheritence | Polymorphism
+# result1 = math.ceil(97.7)  # CALL
+# print("result1:", result1)
+
+# result2 = ceil(99.3)
+# print("result2:", result2)
+
+
+print("=== Iterable Objects & RANGE ===")
